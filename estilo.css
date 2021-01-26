@@ -1,0 +1,31 @@
+#element-for-modify {
+    color: red;
+}
+
+[probar="sii"] {
+    color: blue;
+}
+
+h2 {
+    color: powderblue;
+}
+
+h2 p {
+    color: orange;
+}
+
+h2 p span {
+    color: rgb(68, 170, 201);
+}
+
+h2 b {
+    color: rgb(55, 160, 60);
+}
+
+h2 b:hover {
+    color: rgb(224, 125, 216);
+}
+
+p span {
+    color: brown;
+}
