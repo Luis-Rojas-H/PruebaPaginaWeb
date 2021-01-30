@@ -1,3 +1,10 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 100;
+}
+
 #element-for-modify {
     color: red;
 }
@@ -6,8 +13,12 @@
     color: blue;
 }
 
+h1 {
+    color: purple;
+}
+
 h2 {
-    color: powderblue;
+    color: rgb(2, 56, 63);
 }
 
 h2 p {
@@ -26,6 +37,37 @@ h2 b:hover {
     color: rgb(224, 125, 216);
 }
 
+h2 {
+    display: inline;
+    background-color: royalblue;
+    text-align: center;
+    padding: 1px 0px 1px 1px;
+    border: 4px inset gray;
+    margin: 12px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 5px 0 greenyellow;
+    text-shadow: 2px 2px 7px white;
+}
+
 p span {
     color: brown;
 }
+
+.contac-form__input--active {
+    color: red;
+}
+
+.contact-form {
+    font-size: 25px;
+    background-color: rgb(255, 241, 45);
+    width: 100vw;
+    height: 15vw;
+}
+
+.contact-form__p-h2 {
+    font-size: 2em;
+    font-family: sans-serif;
+    color: skyblue;
+}
+
+
